@@ -1,0 +1,44 @@
+/* Paramètres par défaut */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: dashed thin gray;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav a {
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+    border-bottom: solid white 2px;
+}
+
+.selected,
+nav a:hover {
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(21, 21, 196);
+}
+
+/* Layout global (s'applique à toutes les pages) */
