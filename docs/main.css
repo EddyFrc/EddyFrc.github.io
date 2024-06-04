@@ -5,6 +5,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Container principal */
+main {
+    width: 80%;
+    margin: auto;
+}
+
 /* Header */
 header {
     display: flex;
@@ -44,16 +50,22 @@ nav a:hover {
 /* Layout global (s'applique à toutes les pages) */
 article > div {
     display: flex;
-}
-
-article > div > section {
-    flex-shrink: 2;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 /* Succès */
+.succes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 .succes > * {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     flex-grow: 2;
     background-position: center;
     background-size: 100px;
@@ -86,4 +98,15 @@ article > div > section {
     padding: 30%;
     padding-top: 5%;
     padding-bottom: 0;
+}
+
+article > div > section {
+    width: 400px;
+    flex-shrink: 2;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        display: none;
+    }
 }
