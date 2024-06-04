@@ -42,3 +42,48 @@ nav a:hover {
 }
 
 /* Layout global (s'applique à toutes les pages) */
+article > div {
+    display: flex;
+}
+
+article > div > section {
+    flex-shrink: 2;
+}
+
+/* Succès */
+.succes > * {
+    width: 250px;
+    height: 250px;
+    flex-grow: 2;
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: solid 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    text-align: center;
+}
+
+.gold {
+    background-color: rgb(255, 239, 97);
+    border-color: rgb(160, 150, 61);
+}
+
+.silver {
+    background-color: rgb(185, 185, 185);
+    border-color: rgb(75, 75, 75);
+}
+
+.bronze {
+    background-color: rgb(170, 133, 60);
+    border-color: rgb(87, 68, 31);
+}
+
+.succes img {
+    width: auto;
+    padding: 30%;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
