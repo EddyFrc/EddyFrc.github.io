@@ -26,16 +26,13 @@ header * {
     color: black;
 }
 
-h1 {
-    margin: 0;
-    position: absolute;
-    left: 10px;
-}
-
+/* Navbar */
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     gap: 20px;
+    font-size: large;
 }
 
 nav a {
@@ -52,13 +49,80 @@ nav a:hover {
 }
 
 /* Layout global (s'applique à toutes les pages) */
+article {
+    display: flex;
+    flex-direction: column;
+}
+
 article > div {
     display: flex;
     gap: 50px;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    left: 10px;
 }
 
 h2 {
     font-size: 40px;
+}
+
+h3 {
+    font-size: x-large;
+    margin: 0;
+    margin-top: 5px;
+}
+
+p {
+    font-size: large;
+}
+
+/* Profil */
+.inventaire {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+}
+
+article > div > div > * {
+    height: 60px;
+    width: 60px;
+    border-top: solid 2px gray;
+    border-left: solid 2px gray;
+    border-right: px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+}
+
+article > div > img {
+    width: 300px;
+    height: fit-content;
+}
+
+.legendary-item {
+    background: linear-gradient(45deg, rgba(232, 211, 49, 0.45) 0%, rgba(246, 109, 18, 0.45) 100%);
+}
+
+.epic-item {
+    background: linear-gradient(45deg, rgba(134, 49, 232, 0.45) 0%, rgba(246, 18, 219, 0.45) 100%);
+}
+
+.rare-item {
+    background: linear-gradient(45deg, rgba(22, 40, 237, 0.45) 0%, rgba(18, 193, 246, 0.45) 100%);
+}
+
+.uncommon-item {
+    background-color: rgb(105, 215, 118);
+}
+
+.common-item {
+    background-color: lightgray;
 }
 
 /* Panel de droite pour profil et succès */
@@ -122,16 +186,21 @@ article > div > section > div {
     padding-bottom: 0;
 }
 
+.succes p {
+    font-size: medium;
+}
+
 /* Contact */
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: larger;
 }
 
 form > div {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 35% 60%;
     gap: 10px;
 }
 
@@ -140,19 +209,47 @@ form > input {
     width: fit-content;
 }
 
+input[type="submit"] {
+    font-size: medium;
+}
+
+textarea {
+    resize: none;
+}
+
 /* Responsive */
+@media screen and (max-width: 500px) {
+    form > div {
+        max-width: 60%;
+    }
+}
+
 @media screen and (max-width: 700px) {
     h1 {
+        display: none;
+    }
+
+    article > div {
+        flex-wrap: wrap-reverse;
+    }
+
+    article > div > img {
         display: none;
     }
 
     .succes {
         justify-content: center;
     }
+
+    form > div {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1500px) {
     article > div {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
