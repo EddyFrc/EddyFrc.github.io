@@ -1,0 +1,12 @@
+name;imageName;rarity;desc
+python;python.png;epic;Langage de programmation Python
+linux;linux.svg;epic;Système d'exploitation GNU/Linux
+java;java.png;rare;Langage de programmation Java
+html;html.svg;rare;Langage de description HTML
+css;css.svg;rare;Langage de style CSS;
+git;git.svg;rare;Outil de versioning Git
+psql;psql.png;uncommon;Langage de programmation PostgreSQL
+68k;68k.png;common;Langage Assembleur Motorola 68000
+cpp;68k.png;uncommon;Langage de programmation C++
+php;68k.png;common;Langage de programmation PHP
+javascript;68k.png;common;Langage de programmation Javascript
