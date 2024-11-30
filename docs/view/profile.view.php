@@ -1,3 +1,6 @@
+<?php
+const INVENTORY_WIDTH = 4;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -31,7 +34,7 @@
             <article id="<?= $inventoryItem->getId() ?>">
               <h3><?= $inventoryItem->getName() ?></h3>
               <p>
-                Niveau : <?= InventoryItem::LEVEL_MAP[$inventoryItem->getRarity] ?><br>
+                Niveau : <?= InventoryItem::LEVEL_MAP[$inventoryItem->getRarity()] ?><br>
                 Compétences : <?= $inventoryItem->getSkills() ?><br><br>
                 <?= $inventoryItem->getLongDesc() ?>
               </p>
@@ -39,7 +42,10 @@
           </div>
 
         <?php endforeach; ?>
+
+        <?php for ($i = 0; $i < INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WIDTH); $i++): ?>
           <div></div>
+        <?php endfor; ?>
         </div>
         <section>
           <h3>A propos de moi</h4>

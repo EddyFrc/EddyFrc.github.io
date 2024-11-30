@@ -115,7 +115,7 @@ class InventoryItem
     }
 
     static function readAll(): array {
-        $query = (new PDO('sqlite:'.self::DB_PATH))->prepare('select * from inventory');
+        $query = (new PDO('sqlite:'.self::DB_PATH))->prepare('select * from inventory order by rarity desc');
         $query->execute();
         $table = $query->fetchAll();
 

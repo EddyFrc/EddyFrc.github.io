@@ -119,29 +119,40 @@ p {
     position: relative;
 }
 
+.inventaire img {
+    width: 100%;
+}
+
 .avatar {
     width: 200px;
     height: fit-content;
 }
 
-.legendary-item {
-    background: linear-gradient(45deg, rgba(232, 211, 49, 0.45) 0%, rgba(246, 109, 18, 0.45) 100%);
+.legendary-item,
+.legendary-item article {
+    background: linear-gradient(45deg, hsl(53, 80%, 75%) 0%, hsl(24, 93%, 75%) 100%);
 }
 
-.epic-item {
-    background: linear-gradient(45deg, rgba(134, 49, 232, 0.45) 0%, rgba(246, 18, 219, 0.45) 100%);
+.epic-item,
+.epic-item article {
+    background: linear-gradient(45deg, hsl(268, 80%, 75%) 0%, hsl(307, 93%, 75%) 100%);
+    color: white;
 }
 
-.rare-item {
-    background: linear-gradient(45deg, rgba(22, 40, 237, 0.45) 0%, rgba(18, 193, 246, 0.45) 100%);
+.rare-item,
+.rare-item article {
+    background: linear-gradient(45deg, hsl(235, 86%, 75%) 0%, hsl(194, 93%, 75%) 100%);
+    color: white;
 }
 
-.uncommon-item {
-    background-color: rgb(105, 215, 118);
+.uncommon-item,
+.uncommon-item article {
+    background: linear-gradient(45deg, rgb(105, 215, 118) 0%, rgb(105, 215, 118) 100%);
 }
 
-.common-item {
-    background-color: lightgray;
+.common-item,
+.common-item article {
+    background: linear-gradient(45deg, lightgray 0%, lightgray 100%);
 }
 
 /* Panel de droite pour profil et succès */
