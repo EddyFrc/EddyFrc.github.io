@@ -10,5 +10,6 @@
 // } while (!feof($file));
 
 // var_dump($inventaire);
+$controller = $_GET['page'] ?? 'profil';
 
-require_once 'controler/profil.ctrl.php';
+require_once "controler/$controller.ctrl.php";

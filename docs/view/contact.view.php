@@ -43,6 +43,7 @@
       </p>
     </article>
   </main>
+  <script src="/docs/main.js"></script>
 </body>
 
 </html>

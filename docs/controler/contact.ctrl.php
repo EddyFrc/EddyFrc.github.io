@@ -1,2 +1,2 @@
 <?php
-require_once '../view/contact.view.php';
+require_once 'view/contact.view.php';
