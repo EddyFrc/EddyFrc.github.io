@@ -6,9 +6,9 @@ const INVENTORY_WIDTH = 4;
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./main.css">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <script src="main.js"></script> 
+  <link rel="stylesheet" href="/docs/main.css">
+  <link rel="shortcut icon" href="/docs/img/favicon.ico" type="image/x-icon">
+  <script src="/docs/main.js"></script> 
   <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -25,12 +25,12 @@ const INVENTORY_WIDTH = 4;
     <article>
       <h2>Mon profil</h2>
       <div>
-        <img class="avatar" src="img/avatar.png" alt="Avatar en pixel-art">
+        <img class="avatar" src="/docs/img/avatar.png" alt="Avatar en pixel-art">
         <div class="inventaire">
         <?php foreach ($inventoryItems as $inventoryItem): ?>
 
           <div class="<?= InventoryItem::RARITY_MAP[$inventoryItem->getRarity()] ?>-item" onmouseenter="onInventoryIn('<?= $inventoryItem->getId() ?>')" onmouseleave="onInventoryOut('<?= $inventoryItem->getId() ?>')">
-            <img src="img/<?= $inventoryItem->getImageName() ?>" alt="<?= $inventoryItem->getDesc() ?>">
+            <img src="/docs/img/<?= $inventoryItem->getImageName() ?>" alt="<?= $inventoryItem->getDesc() ?>">
             <article id="<?= $inventoryItem->getId() ?>">
               <h3><?= $inventoryItem->getName() ?></h3>
               <p>
