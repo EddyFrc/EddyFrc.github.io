@@ -3,20 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../main.css">
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/docs/main.css">
+  <link rel="shortcut icon" href="/docs/img/favicon.ico" type="image/x-icon">
   <title>Eddy Francou - Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <h1>Eddy Francou</h1>
-    <nav>
-      <a href="..">Profil</a>
-      <a href="../succes">Succès</a>
-      <a href="." class="selected">Contact</a>
-    </nav>
-  </header>
+  <?php require_once 'view/navbar.view.php'; ?>
   <main>
     <article>
       <h2>Me contacter</h2>
@@ -28,7 +21,7 @@
 
             <label for="objet">Objet</label>
             <input type="text" name="objet" id="objet" placeholder="Offre d'emploi">
-            
+
             <label for="message">Message</label>
             <textarea name="message" id="message" cols="50" rows="10"></textarea>
           </div>
@@ -39,10 +32,11 @@
     <article class="contact">
       <h3>Informations de contact</h3>
       <p>
-        <a href="https://github.com/EddyFrc"><img src="../img/github-mark.svg" alt="Logo de Github"></a>
+        <a href="https://github.com/EddyFrc"><img src="/docs/img/github-mark.svg" alt="Logo de Github"></a>
       </p>
       <p>
-        Adresse mail universitaire : <a href="mailto:eddy.francou@etu.univ-grenoble-alpes.fr">eddy.francou@etu.univ-grenoble-alpes.fr</a>
+        Adresse mail universitaire : <a
+          href="mailto:eddy.francou@etu.univ-grenoble-alpes.fr">eddy.francou@etu.univ-grenoble-alpes.fr</a>
       </p>
       <p>
         Numéro de téléphone : <a href="tel:0635026244">06 35 02 62 44</a>
