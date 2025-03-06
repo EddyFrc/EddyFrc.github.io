@@ -1,9 +1,9 @@
-create table inventory (
-    id varchar primary key,
-    name varchar,
-    imageName varchar,
-    rarity int,
-    desc varchar,
-    skills text,
-    longDesc text
+CREATE TABLE inventory (
+    id        VARCHAR PRIMARY KEY,
+    name      VARCHAR,
+    imageName VARCHAR,
+    rarity    INT,
+    desc      VARCHAR,
+    skills    TEXT,
+    longDesc  TEXT
 );

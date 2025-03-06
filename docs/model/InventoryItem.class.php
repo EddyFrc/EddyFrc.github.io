@@ -1,7 +1,6 @@
 <?php
 
-class InventoryItem
-{
+class InventoryItem {
     const array LEVEL_MAP = [
         1 => 'Débutant',
         2 => 'Habitué',
@@ -17,7 +16,7 @@ class InventoryItem
         5 => 'legendary'
     ];
     const string DB_PATH = __DIR__ . '/../data/data.db';
-    
+
     private string $id;
     private string $name;
     private string $imageName;
@@ -26,81 +25,67 @@ class InventoryItem
     private string $skills;
     private string $longDesc;
 
-    function getId(): string
-    {
+    function getId(): string {
         return $this->id;
     }
 
-    function getName(): string
-    {
+    function getName(): string {
         return $this->name;
     }
 
-    function getImageName(): string
-    {
+    function getImageName(): string {
         return $this->imageName;
     }
 
-    function getRarity(): string
-    {
+    function getRarity(): string {
         return $this->rarity;
     }
 
-    function getDesc(): string
-    {
+    function getDesc(): string {
         return $this->desc;
     }
 
-    function getSkills(): string
-    {
+    function getSkills(): string {
         return $this->skills;
     }
 
-    function getLongDesc(): string
-    {
+    function getLongDesc(): string {
         return $this->longDesc;
     }
 
-    function setId(string $id): void
-    {
+    function setId(string $id): void {
         $this->id = $id;
     }
 
-    function setName(string $name): void
-    {
+    function setName(string $name): void {
         $this->name = $name;
     }
 
-    function setImageName(string $imageName): void
-    {
+    function setImageName(string $imageName): void {
         $this->imageName = $imageName;
     }
 
-    function setRarity(int $rarity): void
-    {
+    function setRarity(int $rarity): void {
         $this->rarity = $rarity;
     }
 
-    function setDesc(string $desc): void
-    {
+    function setDesc(string $desc): void {
         $this->desc = $desc;
     }
 
-    function setSkills(string $skills): void
-    {
+    function setSkills(string $skills): void {
         $this->skills = $skills;
     }
 
-    function setLongDesc(string $longDesc): void
-    {
+    function setLongDesc(string $longDesc): void {
         $this->longDesc = $longDesc;
     }
 
     function __construct(
         string $id,
         string $name,
-        string $imageName, 
-        int $rarity,
+        string $imageName,
+        int    $rarity,
         string $desc,
         string $skills,
         string $longDesc
@@ -114,8 +99,28 @@ class InventoryItem
         $this->setLongDesc($longDesc);
     }
 
+    /**
+     * Renvoit l'identifiant nominal correspondant au numéro de rareté
+     * @return string
+     */
+    function getRarityNominalClass(): string {
+        return self::RARITY_MAP[$this->getRarity()];
+    }
+
+    /**
+     * Renvoit le label (celui qui est affiché) correspondant au numéro de rareté
+     * @return string
+     */
+    function getRarityLabel(): string {
+        return self::LEVEL_MAP[$this->getRarity()];
+    }
+
+    /**
+     * Lit toutes les entrées de la base de données et renvoie une liste d'objets `InventoryItem`
+     * @return array<InventoryItem>
+     */
     static function readAll(): array {
-        $query = (new PDO('sqlite:'.self::DB_PATH))->prepare('select * from inventory order by rarity desc');
+        $query = new PDO('sqlite:' . self::DB_PATH)->prepare('SELECT * FROM inventory ORDER BY rarity DESC');
         $query->execute();
         $table = $query->fetchAll();
 

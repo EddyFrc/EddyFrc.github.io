@@ -1,12 +1,46 @@
-function onInventoryIn(id) {
-    // Je met la souris dans la zone -> une bulle apparait
-    document.getElementById(id).style.display = "unset";
+// let itemSound = new Audio("/docs/sounds/item.ogg");
+let tabSound = new Audio("/docs/sounds/tab.ogg");
+
+const inventaire = document.getElementById("inventaire-principal");
+if (inventaire !== null) {
+    for (const item of inventaire.children) {
+        // Si l'item a la class "no-content", c'est une case vide : on l'oublie et on passe directement au prochain élément
+        if (item.classList[0] === "no-content") continue;
+
+        item.addEventListener(
+            "mouseenter",
+            (evenement) => {
+                // itemSound.play();
+                document.getElementsByTagName("section")[0].firstElementChild.style.display = "none";
+                let rightView = document.getElementById(evenement.target.classList[1])
+                rightView.style.display = "unset";
+                document.getElementsByTagName("section")[0].classList.add(rightView.classList[0]);
+            }
+        );
+
+        item.addEventListener(
+            "mouseleave",
+            (evenement) => {
+                document.getElementsByTagName("section")[0].classList = [];
+                document.getElementsByTagName("section")[0].firstElementChild.style.display = "unset";
+                document.getElementById(evenement.target.classList[1]).style.display = "none";
+            }
+        );
+    }
 }
 
-function onInventoryOut(id) {
-    // Je sors la souris de la zone -> la bulle disparait
-    document.getElementById(id).style.display = "none";
-}
+// Son pour les onglets
+document.getElementById("nav-profil").addEventListener("click", () => {
+    tabSound.play();
+})
+
+document.getElementById("nav-succes").addEventListener("click", () => {
+    tabSound.play();
+})
+
+document.getElementById("nav-contact").addEventListener("click", () => {
+    tabSound.play();
+})
 
 // Récupération de la valeur de "page" dans la query string
 const urlParams = new URLSearchParams(window.location.search);
