@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="97.304657mm"
+   height="95.766762mm"
+   viewBox="0 0 97.304657 95.766762"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Nouveau document 1.2025_03_07_12_08_30.0.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5"
+     inkscape:cx="146"
+     inkscape:cy="557"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1072"
+     inkscape:window-y="564"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch11"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch11"
+       id="linearGradient12"
+       x1="53.466892"
+       y1="131.77003"
+       x2="149.36237"
+       y2="131.77003"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0428022,0,0,1.0428021,-56.891757,-87.410061)" />
+  </defs>
+  <path
+     id="chargement"
+     style="fill:url(#linearGradient12);stroke-width:0"
+     d="M 48.863684,0 C 25.151508,0.05983646 4.7423078,16.766947 0,40.000142 l 3.8638468,9.999907 6.3908242,-9.999907 C 14.803237,22.382837 30.668742,10.054914 48.863684,9.9999064 66.884079,10.005944 82.638999,22.059055 87.407068,39.382609 l 1.602486,-10.116178 8.295101,8.380883 C 91.69462,15.605227 71.812159,0.0026317 48.863684,0 Z m 44.577124,45.766715 -6.390824,9.999907 C 82.501419,73.383927 66.635912,85.71185 48.440971,85.766858 30.420576,85.760858 14.665662,73.707709 9.8975871,56.384155 L 8.2951009,66.500334 0,58.11945 C 5.6100349,80.161537 25.492496,95.764131 48.440971,95.766764 72.153147,95.706924 92.562347,78.999818 97.304655,55.766622 Z" />
+</svg>
