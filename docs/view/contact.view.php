@@ -9,11 +9,12 @@
 </head>
 
 <body>
-<?php require_once __DIR__ . '/navbar.view.php'; ?>
+<?php require_once __DIR__ . '/block/navbar.view.php'; ?>
 <main>
     <article>
         <h2>Me contacter</h2>
         <div>
+            <?php // TODO: Gérer le formulaire ?>
             <form action="null">
                 <div>
                     <label for="email">Votre adresse e-mail</label>

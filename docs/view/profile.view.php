@@ -13,11 +13,11 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 </head>
 
 <body>
-<?php require_once __DIR__ . '/navbar.view.php'; ?>
+<?php require_once __DIR__ . '/block/navbar.view.php'; ?>
 <main>
     <article>
         <h2>Mon profil</h2>
-        <div>
+        <div id="profile-container">
             <img class="avatar" src="/docs/img/avatar.png" alt="Avatar en pixel-art">
             <div class="inventaire" id="inventaire-principal">
                 <?php foreach ($inventoryItems as $inventoryItem): ?>

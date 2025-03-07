@@ -9,11 +9,12 @@
 </head>
 
 <body>
-<?php require_once __DIR__ . '/navbar.view.php'; ?>
+<?php require_once __DIR__ . '/block/navbar.view.php'; ?>
 <main>
     <article>
         <h2>Mes succès</h2>
         <div>
+            <?php // TODO: utiliser la base de données ?>
             <div class="succes"> <!--Grille des succès-->
                 <a href="#sloubi" class="gold">
                     <img src="/docs/img/trophy-gold.png" alt="Trophée en or">
