@@ -8,6 +8,11 @@ const navProfil = document.getElementById("nav-profil");
 const navSucces = document.getElementById("nav-succes");
 const navContact = document.getElementById("nav-contact");
 
+function initLoadingScreen() {
+    document.getElementById("loading").style.display = "flex";
+    document.getElementsByTagName("main")[0].style.display = "none";
+}
+
 function hideAllSideInfos() {
     for (const sideInfo of sidePanel.children) {
         sideInfo.style.display = "none";
@@ -26,6 +31,7 @@ function resetSelectedTab() {
 }
 
 function onTabClick(tabEvent) {
+    initLoadingScreen();
     resetSelectedTab();
     tabEvent.target.classList.add("selected");
     clickSound.play();
@@ -103,8 +109,8 @@ if (inventaire !== null) {
 }
 
 navProfil.addEventListener("click", onTabClick);
-document.getElementById("nav-succes").addEventListener("click", onTabClick);
-document.getElementById("nav-contact").addEventListener("click", onTabClick);
+navSucces.addEventListener("click", onTabClick);
+navContact.addEventListener("click", onTabClick);
 
 // Récupération de la valeur de "page" dans la query string
 const urlParams = new URLSearchParams(window.location.search);

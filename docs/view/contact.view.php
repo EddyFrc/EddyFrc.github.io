@@ -44,6 +44,7 @@
         </p>
     </article>
 </main>
+<?php require_once __DIR__ . '/block/loading.view.php' ?>
 <script src="/docs/main.js"></script>
 </body>
 

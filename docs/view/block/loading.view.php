@@ -1,6 +1,6 @@
-<div>
-    <h1>
+<div id="loading">
+    <h2>
         Chargement...
-    </h1>
+    </h2>
     <img src="/docs/img/loading.svg" alt="Chargement...">
 </div>

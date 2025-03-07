@@ -366,6 +366,32 @@ textarea {
     display: initial;
 }
 
+#loading {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    height: 500px;
+
+    img {
+        height: 100px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    } to {
+        transform: rotate(-360deg);
+    }
+}
+
 /* Responsive */
 @media screen and (max-width: 500px) {
     form>div {
