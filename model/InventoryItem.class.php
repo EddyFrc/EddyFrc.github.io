@@ -1,29 +1,29 @@
 <?php
 
 class InventoryItem {
-    const array LEVEL_MAP = [
+    const LEVEL_MAP = [
         1 => 'Débutant',
         2 => 'Habitué',
         3 => 'Confirmé',
         4 => 'Avancé',
         5 => 'Expert'
     ];
-    const array RARITY_MAP = [
+    const RARITY_MAP = [
         1 => 'common',
         2 => 'uncommon',
         3 => 'rare',
         4 => 'epic',
         5 => 'legendary'
     ];
-    const string DB_PATH = __DIR__ . '/../data/data.db';
+    const DB_PATH = __DIR__ . '/../data/data.db';
 
-    private string $id;
-    private string $name;
-    private string $imageName;
-    private int $rarity;
-    private string $desc;
-    private string $skills;
-    private string $longDesc;
+    private $id;
+    private $name;
+    private $imageName;
+    private $rarity;
+    private $desc;
+    private $skills;
+    private $longDesc;
 
     function getId(): string {
         return $this->id;
@@ -120,7 +120,7 @@ class InventoryItem {
      * @return array<InventoryItem>
      */
     static function readAll(): array {
-        $query = new PDO('sqlite:' . self::DB_PATH)->prepare('SELECT * FROM inventory ORDER BY rarity DESC');
+        $query = (new PDO('sqlite:' . self::DB_PATH))->prepare('SELECT * FROM inventory ORDER BY rarity DESC');
         $query->execute();
         $table = $query->fetchAll();
 
