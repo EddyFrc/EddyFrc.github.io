@@ -2,5 +2,5 @@
     <h2>
         Chargement...
     </h2>
-    <img src="/docs/img/loading.svg" alt="Chargement...">
+    <img src="/img/loading.svg" alt="Chargement...">
 </div>

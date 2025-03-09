@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/docs/main.css">
-    <link rel="shortcut icon" href="/docs/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -17,27 +17,27 @@
             <?php // TODO: utiliser la base de données ?>
             <div class="succes"> <!--Grille des succès-->
                 <a href="#sloubi" class="gold">
-                    <img src="/docs/img/trophy-gold.png" alt="Trophée en or">
+                    <img src="/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>
                 </a>
                 <a href="#s2-01256" class="gold">
-                    <img src="/docs/img/trophy-gold.png" alt="Trophée en or">
+                    <img src="/img/trophy-gold.png" alt="Trophée en or">
                     <p>Planifier, concevoir et développer une application complète</p>
                 </a>
                 <a href="#s1-012" class="silver">
-                    <img src="/docs/img/trophy-silver.png" alt="Trophée en argent">
+                    <img src="/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Réaliser un programme d’apprentissage par renforcement</p>
                 </a>
                 <a href="#s1-03" class="silver">
-                    <img src="/docs/img/trophy-silver.png" alt="Trophée en argent">
+                    <img src="/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Installer un poste pour le développement</p>
                 </a>
                 <a href="#s1-04" class="bronze">
-                    <img src="/docs/img/trophy-bronze.png" alt="Trophée en bronze">
+                    <img src="/img/trophy-bronze.png" alt="Trophée en bronze">
                     <p>Créer et analyser une base de données</p>
                 </a>
                 <a href="#s1-056" class="bronze">
-                    <img src="/docs/img/trophy-bronze.png" alt="Trophée en bronze">
+                    <img src="/img/trophy-bronze.png" alt="Trophée en bronze">
                     <p>Réaliser un site web simple</p>
                 </a>
             </div>
@@ -60,7 +60,7 @@
     <article class="details-succes" id="sloubi">
         <div>
             <div class="tags">
-                <a href="/docs#python" class="tag epic-item">Python</a>
+                <a href="/#python" class="tag epic-item">Python</a>
             </div>
             <p>Période : Lycée, première année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
                 informatique</p>
@@ -79,14 +79,14 @@
                         href="https://my.numworks.com/python/eddy-francou/sloubi_2_latest">Numworks</a>
             </p>
         </div>
-        <img class="illustration" src="/docs/img/succes-numworks.png" alt="Calculatrice numworks">
+        <img class="illustration" src="/img/succes-numworks.png" alt="Calculatrice numworks">
     </article>
     <article class="details-succes" id="s2-01256">
         <div>
             <div class="tags">
-                <a href="/docs#java" class="tag rare-item">Java</a>
-                <a href="/docs#java" class="tag rare-item">JavaFX</a>
-                <a href="/docs#git" class="tag rare-item">Git</a>
+                <a href="/#java" class="tag rare-item">Java</a>
+                <a href="/#java" class="tag rare-item">JavaFX</a>
+                <a href="/#git" class="tag rare-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Deuxième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
@@ -105,13 +105,13 @@
                 lien entre les participants au marché et les données stockées dans l’application.
             </p>
         </div>
-        <img class="illustration" src="/docs/img/succes-brocante.jpeg" alt="Illustration de brocante">
+        <img class="illustration" src="/img/succes-brocante.jpeg" alt="Illustration de brocante">
     </article>
     <article class="details-succes" id="s1-012">
         <div>
             <div class="tags">
-                <a href="/docs#java" class="tag rare-item">Java</a>
-                <a href="/docs#git" class="tag rare-item">Git</a>
+                <a href="/#java" class="tag rare-item">Java</a>
+                <a href="/#git" class="tag rare-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
@@ -137,12 +137,12 @@
                 intégrée.
             </p>
         </div>
-        <img class="illustration" src="/docs/img/succes-depeche.jpg" alt="Illustration de journaux">
+        <img class="illustration" src="/img/succes-depeche.jpg" alt="Illustration de journaux">
     </article>
     <article class="details-succes" id="s1-03">
         <div>
             <div class="tags">
-                <a href="/docs#linux" class="tag epic-item">Linux</a>
+                <a href="/#linux" class="tag epic-item">Linux</a>
             </div>
             <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
             </p>
@@ -162,12 +162,12 @@
                 pousser plus loin la personnalisation.
             </p>
         </div>
-        <img class="illustration" src="/docs/img/succes-installation.png" alt="Écran d'installation de Debian">
+        <img class="illustration" src="/img/succes-installation.png" alt="Écran d'installation de Debian">
     </article>
     <article class="details-succes" id="s1-04">
         <div>
             <div class="tags">
-                <a href="/docs#psql" class="tag uncommon-item">PostgreSQL</a>
+                <a href="/#psql" class="tag uncommon-item">PostgreSQL</a>
             </div>
             <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
             </p>
@@ -184,13 +184,13 @@
                 d'un éditeur de texte, j'ai utilisé le langage SQL pour rendre la base effective.
             </p>
         </div>
-        <!-- <img class="illustration" src="/docs/img/succes-installation.png" alt="Calculatrice numworks"> -->
+        <!-- <img class="illustration" src="/img/succes-installation.png" alt="Calculatrice numworks"> -->
     </article>
     <article class="details-succes" id="s1-056">
         <div>
             <div class="tags">
-                <a href="/docs#html" class="tag rare-item">HTML</a>
-                <a href="/docs#css" class="tag rare-item">CSS</a>
+                <a href="/#html" class="tag rare-item">HTML</a>
+                <a href="/#css" class="tag rare-item">CSS</a>
             </div>
             <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
             </p>
@@ -199,11 +199,11 @@
                 L'objectif était de créer un site web sobre écologiquement à destination d'une entreprise.
             </p>
         </div>
-        <!-- <img class="illustration" src="/docs/img/succes-installation.png" alt="Calculatrice numworks"> -->
+        <!-- <img class="illustration" src="/img/succes-installation.png" alt="Calculatrice numworks"> -->
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
-<script src="/docs/main.js"></script>
+<script src="/main.js"></script>
 </body>
 
 </html>

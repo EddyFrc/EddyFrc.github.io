@@ -7,8 +7,8 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/docs/main.css">
-    <link rel="shortcut icon" href="/docs/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -18,12 +18,12 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
     <article>
         <h2>Mon profil</h2>
         <div id="profile-container">
-            <img class="avatar" src="/docs/img/avatar.png" alt="Avatar en pixel-art">
+            <img class="avatar" src="/img/avatar.png" alt="Avatar en pixel-art">
             <div class="inventaire" id="inventaire-principal">
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
                     <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->getId() ?>">
-                        <img src="/docs/img/<?= $inventoryItem->getImageName() ?>"
+                        <img src="/img/<?= $inventoryItem->getImageName() ?>"
                              alt="<?= $inventoryItem->getDesc() ?>">
                     </div>
 
@@ -67,7 +67,7 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
-<script src="/docs/main.js"></script>
+<script src="/main.js"></script>
 </body>
 
 </html>

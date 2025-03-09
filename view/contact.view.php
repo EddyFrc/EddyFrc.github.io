@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/docs/main.css">
-    <link rel="shortcut icon" href="/docs/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -13,7 +13,7 @@
 <main>
     <article>
         <h2>Me contacter</h2>
-        <div>
+        <!-- <div>
             <?php // TODO: Gérer le formulaire ?>
             <form action="null">
                 <div>
@@ -28,12 +28,12 @@
                 </div>
                 <input type="submit" name="submit" id="submit">
             </form>
-        </div>
+        </div> -->
     </article>
     <article class="contact">
-        <h3>Informations de contact</h3>
+        <!-- <h3>Informations de contact</h3> -->
         <p>
-            <a href="https://github.com/EddyFrc"><img src="/docs/img/github-mark.svg" alt="Logo de Github"></a>
+            <a href="https://github.com/EddyFrc"><img src="/img/github-mark.svg" alt="Logo de Github"></a>
         </p>
         <p>
             Adresse mail universitaire : <a
@@ -45,7 +45,7 @@
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
-<script src="/docs/main.js"></script>
+<script src="/main.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
-/* let itemSound = new Audio("/docs/sounds/item.ogg");
-let clickSound = new Audio("/docs/sounds/tab.ogg"); */
+/* let itemSound = new Audio("/sounds/item.ogg");
+let clickSound = new Audio("/sounds/tab.ogg"); */
 
 let sidePanel = document.getElementsByTagName("section")[0];
 const inventaire = document.getElementById("inventaire-principal");
