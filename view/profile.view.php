@@ -47,6 +47,9 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
                         de
                         chats.
                     </p>
+                    <p>
+                        Cliquez sur une technologie dans cet inventaire pour en savoir plus !
+                    </p>
                 </article>
 
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
