@@ -67,16 +67,14 @@
             <h3>Programmer un jeu sur calculatrice Numworks</h3>
             <p>
                 L'objectif du projet était de réaliser un jeu d'arcade en Python en utilisant les librairies fournies
-                par la
-                calculatrice Numworks. J'ai d'abord utilisé l'éditeur en ligne sur le site officiel, puis j'ai utilisé
-                les
-                modules <a href="https://pypi.org/project/kandinsky/">kandinsky-numworks</a> et <a
-                        href="https://pypi.org/project/ion-numworks/">ion-numworks</a> qui émulent le comportement de la
+                par la calculatrice Numworks. J'ai d'abord utilisé l'éditeur en ligne sur le site officiel, puis j'ai
+                utilisé les modules <a href="https://pypi.org/project/kandinsky/">kandinsky-numworks</a> et
+                <a href="https://pypi.org/project/ion-numworks/">ion-numworks</a> qui émulent le comportement de la
                 calculatrice sous forme d'une fenêtre sur le bureau d'un PC. Ainsi, j'ai pu utiliser un IDE pour gagner
-                en
-                efficacité. C'est le projet sur lequel j'ai acquis le plus d'expérience pour le langage Python.<br><br>
-                Liens : <a href="https://github.com/EddyFrc/Sloubi">Github</a>, <a
-                        href="https://my.numworks.com/python/eddy-francou/sloubi_2_latest">Numworks</a>
+                en efficacité. C'est le projet sur lequel j'ai acquis le plus d'expérience pour le langage
+                Python.<br><br>
+                Liens : <a href="https://github.com/EddyFrc/Sloubi">Github</a>,
+                <a href="https://my.numworks.com/python/eddy-francou/sloubi_2_latest">Numworks</a>
             </p>
         </div>
         <img class="illustration" src="/img/succes-numworks.png" alt="Calculatrice numworks">
