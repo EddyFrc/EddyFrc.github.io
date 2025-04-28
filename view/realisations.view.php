@@ -12,10 +12,10 @@
 <?php require_once __DIR__ . '/block/navbar.view.php'; ?>
 <main>
     <article>
-        <h2>Mes succès</h2>
+        <h2>Mes succès (réalisations)</h2>
         <div>
-            <?php // TODO: utiliser la base de données ?>
-            <div class="succes"> <!--Grille des succès-->
+            <?php // TODO utiliser la base de données ?>
+            <div class="realisations"> <!--Grille des succès-->
                 <a href="#sloubi" class="gold">
                     <img src="/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>

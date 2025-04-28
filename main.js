@@ -47,7 +47,7 @@ function switchSelectedTab(page) {
             navProfil.classList.remove("selected");
             break;
 
-        case "succes":
+        case "realisations":
             navSucces.classList.add("selected");
             navContact.classList.remove("selected");
             navProfil.classList.remove("selected");

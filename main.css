@@ -187,7 +187,7 @@ section article:first-child {
   display: flex;
 }
 
-.succes {
+.realisations {
   /* background-color: cyan; */
   display: flex;
   /* justify-content: space-around; */
@@ -195,7 +195,7 @@ section article:first-child {
   gap: 20px;
   flex-shrink: 4;
 }
-.succes > * {
+.realisations > * {
   width: 200px;
   height: 200px;
   background-position: center;
@@ -209,20 +209,20 @@ section article:first-child {
   text-align: center;
   transition: transform 0.2s cubic-bezier(0, 1, 1, 1);
 }
-.succes > *:hover {
+.realisations > *:hover {
   transform: scale(1.1);
 }
-.succes a,
-.succes a:hover,
-.succes a:visited {
+.realisations a,
+.realisations a:hover,
+.realisations a:visited {
   text-decoration: none;
   color: black;
 }
-.succes img {
+.realisations img {
   width: auto;
   padding: 5% 30% 0;
 }
-.succes p {
+.realisations p {
   font-size: medium;
 }
 
@@ -349,7 +349,7 @@ textarea {
   .avatar {
     display: none;
   }
-  .succes {
+  .realisations {
     justify-content: center;
   }
   form > div {
