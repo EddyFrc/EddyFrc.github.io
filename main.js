@@ -5,7 +5,7 @@ let sidePanel = document.getElementsByTagName("section")[0];
 const inventaire = document.getElementById("inventaire-principal");
 
 const navProfil = document.getElementById("nav-profil");
-const navSucces = document.getElementById("nav-succes");
+const navRealisations = document.getElementById("nav-realisations");
 const navContact = document.getElementById("nav-contact");
 
 function initLoadingScreen() {
@@ -25,7 +25,7 @@ function hideAllSideInfos() {
 }
 
 function resetSelectedTab() {
-    navSucces.classList.remove("selected");
+    navRealisations.classList.remove("selected");
     navProfil.classList.remove("selected");
     navContact.classList.remove("selected");
 }
@@ -34,7 +34,7 @@ function onTabClick(tabEvent) {
     initLoadingScreen();
     resetSelectedTab();
     tabEvent.target.classList.add("selected");
-    clickSound.play();
+    //clickSound.play();
 }
 
 function switchSelectedTab(page) {
@@ -43,19 +43,19 @@ function switchSelectedTab(page) {
     switch (page) {
         case "contact":
             navContact.classList.add("selected");
-            navSucces.classList.remove("selected");
+            navRealisations.classList.remove("selected");
             navProfil.classList.remove("selected");
             break;
 
         case "realisations":
-            navSucces.classList.add("selected");
+            navRealisations.classList.add("selected");
             navContact.classList.remove("selected");
             navProfil.classList.remove("selected");
             break;
 
         default:
             navProfil.classList.add("selected");
-            navSucces.classList.remove("selected");
+            navRealisations.classList.remove("selected");
             navContact.classList.remove("selected");
             break;
     }
@@ -109,7 +109,7 @@ if (inventaire !== null) {
 }
 
 navProfil.addEventListener("click", onTabClick);
-navSucces.addEventListener("click", onTabClick);
+navRealisations.addEventListener("click", onTabClick);
 navContact.addEventListener("click", onTabClick);
 
 // Récupération de la valeur de "page" dans la query string
