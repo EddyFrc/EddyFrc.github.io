@@ -31,16 +31,23 @@
         </div> -->
     </article>
     <article class="contact">
-        <!-- <h3>Informations de contact</h3> -->
+        <h3>Informations de contact</h3>
         <p>
-            <a href="https://github.com/EddyFrc"><img src="/img/github-mark.svg" alt="Logo de Github"></a>
-        </p>
-        <p>
-            Adresse mail universitaire : <a
-                    href="mailto:eddy.francou@etu.univ-grenoble-alpes.fr">eddy.francou@etu.univ-grenoble-alpes.fr</a>
+            Adresse mail universitaire :
+            <a href="mailto:eddy.francou@etu.univ-grenoble-alpes.fr">eddy.francou@etu.univ-grenoble-alpes.fr</a>
         </p>
         <p>
             Numéro de téléphone : <a href="tel:0635026244">06 35 02 62 44</a>
+        </p>
+        <h3>Autres liens</h3>
+        <p>
+            CV : <a href="/public/cv.pdf" target="_blank">Consulter mon CV</a>
+        </p>
+        <p>
+            Github : <a href="https://github.com/EddyFrc">Consulter mon profil</a>
+        </p>
+        <p>
+            Linkedin : <a href="https://www.linkedin.com/in/eddy-francou-963599349">Consulter mon profil</a>
         </p>
     </article>
 </main>
