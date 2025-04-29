@@ -49,6 +49,9 @@
         <p>
             Linkedin : <a href="https://www.linkedin.com/in/eddy-francou-963599349">Consulter mon profil</a>
         </p>
+        <p>
+            Portfolio : <a href="https://github.com/EddyFrc/EddyFrc.github.io/tree/prod">Voir le dépôt Github</a>
+        </p>
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
