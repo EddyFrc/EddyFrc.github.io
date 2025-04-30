@@ -201,7 +201,8 @@
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
-<script src="/main.js"></script>
+<script src="/public/js/main.js"></script>
+<script src="/public/js/theme.js"></script>
 </body>
 
 </html>

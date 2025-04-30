@@ -1,0 +1,21 @@
+$darkBackground: #222222;
+
+body,
+header a,
+header a:visited,
+header a:hover {
+    color: #dadada;
+    background-color: $darkBackground;
+}
+
+nav a {
+    border-bottom-color: $darkBackground;
+}
+
+.inventaire {
+    border-color: $darkBackground;
+    > * {
+        background-color: #373737;
+        border-color: $darkBackground;
+    }
+}
