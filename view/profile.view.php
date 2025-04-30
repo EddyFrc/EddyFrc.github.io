@@ -22,9 +22,9 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
             <div class="inventaire" id="inventaire-principal">
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
-                    <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->getId() ?>">
-                        <img src="/img/<?= $inventoryItem->getImageName() ?>"
-                             alt="<?= $inventoryItem->getDesc() ?>">
+                    <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->id ?>">
+                        <img src="/img/<?= $inventoryItem->imageName ?>"
+                             alt="<?= $inventoryItem->desc ?>">
                     </div>
 
                 <?php endforeach; ?>
@@ -54,12 +54,12 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
-                    <article class="<?= $inventoryItem->getRarityNominalClass() ?>-item" id="<?= $inventoryItem->getId() ?>">
-                        <h3><?= $inventoryItem->getName() ?></h3>
+                    <article class="<?= $inventoryItem->getRarityNominalClass() ?>-item" id="<?= $inventoryItem->id ?>">
+                        <h3><?= $inventoryItem->name ?></h3>
                         <p>
                             Niveau : <?= $inventoryItem->getRarityLabel() ?><br>
-                            Compétences : <?= $inventoryItem->getSkills() ?><br><br>
-                            <?= $inventoryItem->getLongDesc() ?>
+                            Compétences : <?= $inventoryItem->skills ?><br><br>
+                            <?= $inventoryItem->longDesc ?>
                         </p>
                     </article>
 
