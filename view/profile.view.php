@@ -8,7 +8,7 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/main.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -18,12 +18,12 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
     <article>
         <h2>Mon profil</h2>
         <div id="profile-container">
-            <img class="avatar" src="/img/avatar.png" alt="Avatar en pixel-art">
+            <img class="avatar" src="/public/img/avatar.png" alt="Avatar en pixel-art">
             <div class="inventaire" id="inventaire-principal">
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
                     <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->id ?>">
-                        <img src="/img/<?= $inventoryItem->imageName ?>"
+                        <img src="/public/img/<?= $inventoryItem->imageName ?>"
                              alt="<?= $inventoryItem->desc ?>">
                     </div>
 

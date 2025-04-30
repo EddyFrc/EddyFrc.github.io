@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/main.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -17,27 +17,27 @@
             <?php // TODO utiliser la base de données ?>
             <div class="realisations"> <!--Grille des succès-->
                 <a href="#sloubi" class="gold">
-                    <img src="/img/trophy-gold.png" alt="Trophée en or">
+                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>
                 </a>
                 <a href="#s2-01256" class="gold">
-                    <img src="/img/trophy-gold.png" alt="Trophée en or">
+                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Planifier, concevoir et développer une application complète</p>
                 </a>
                 <a href="#s1-012" class="silver">
-                    <img src="/img/trophy-silver.png" alt="Trophée en argent">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Réaliser un programme d’apprentissage par renforcement</p>
                 </a>
                 <a href="#s1-03" class="silver">
-                    <img src="/img/trophy-silver.png" alt="Trophée en argent">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Installer un poste pour le développement</p>
                 </a>
                 <a href="#s1-04" class="bronze">
-                    <img src="/img/trophy-bronze.png" alt="Trophée en bronze">
+                    <img src="/public/img/trophy-bronze.png" alt="Trophée en bronze">
                     <p>Créer et analyser une base de données</p>
                 </a>
                 <a href="#s1-056" class="bronze">
-                    <img src="/img/trophy-bronze.png" alt="Trophée en bronze">
+                    <img src="/public/img/trophy-bronze.png" alt="Trophée en bronze">
                     <p>Réaliser un site web simple</p>
                 </a>
             </div>
@@ -77,7 +77,7 @@
                 <a href="https://my.numworks.com/python/eddy-francou/sloubi_2_latest">Numworks</a>
             </p>
         </div>
-        <img class="illustration" src="/img/succes-numworks.png" alt="Calculatrice numworks">
+        <img class="illustration" src="/public/img/succes-numworks.png" alt="Calculatrice numworks">
     </article>
     <article class="details-succes" id="s2-01256">
         <div>
@@ -103,7 +103,7 @@
                 lien entre les participants au marché et les données stockées dans l’application.
             </p>
         </div>
-        <img class="illustration" src="/img/succes-brocante.jpeg" alt="Illustration de brocante">
+        <img class="illustration" src="/public/img/succes-brocante.jpeg" alt="Illustration de brocante">
     </article>
     <article class="details-succes" id="s1-012">
         <div>
@@ -135,7 +135,7 @@
                 intégrée.
             </p>
         </div>
-        <img class="illustration" src="/img/succes-depeche.jpg" alt="Illustration de journaux">
+        <img class="illustration" src="/public/img/succes-depeche.jpg" alt="Illustration de journaux">
     </article>
     <article class="details-succes" id="s1-03">
         <div>
@@ -160,7 +160,7 @@
                 pousser plus loin la personnalisation.
             </p>
         </div>
-        <img class="illustration" src="/img/succes-installation.png" alt="Écran d'installation de Debian">
+        <img class="illustration" src="/public/img/succes-installation.png" alt="Écran d'installation de Debian">
     </article>
     <article class="details-succes" id="s1-04">
         <div>
