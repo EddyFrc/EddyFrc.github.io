@@ -34,8 +34,10 @@ function applyTheme(theme) {
             'beforeend',
             '<link id="light-stylesheet" rel="stylesheet" href="/public/style/light.css" />'
         );
-    else
-        document.head.removeChild(document.getElementById('light-stylesheet'));
+    else {
+        const lightStylesheet = document.getElementById('light-stylesheet');
+        if (lightStylesheet !== null) document.head.removeChild(lightStylesheet);
+    }
 }
 
 darkThemeMq.addEventListener('change', onSystemThemeChange);
