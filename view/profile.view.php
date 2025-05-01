@@ -71,7 +71,6 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
 <script src="/public/js/main.js"></script>
-<script src="/public/js/theme.js"></script>
 </body>
 
 </html>
