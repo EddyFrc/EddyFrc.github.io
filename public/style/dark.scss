@@ -1,10 +1,11 @@
-$darkBackground: #222222;
+$darkBackground: #272929;
+$darkText: #b3b0ab;
 
 body,
 header a,
 header a:visited,
 header a:hover {
-    color: #dadada;
+    color: $darkText;
     background-color: $darkBackground;
 }
 

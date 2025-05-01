@@ -32,7 +32,7 @@ function applyTheme(theme) {
     if (theme === 'dark')
         document.head.insertAdjacentHTML(
             'beforeend',
-            '<link id="dark-stylesheet" rel="stylesheet" href="/dark.css" />'
+            '<link id="dark-stylesheet" rel="stylesheet" href="/public/style/dark.css" />'
         );
     else
         document.head.removeChild(document.getElementById('dark-stylesheet'));

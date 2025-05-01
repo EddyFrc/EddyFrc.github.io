@@ -7,7 +7,7 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/public/style/main.css">
     <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
