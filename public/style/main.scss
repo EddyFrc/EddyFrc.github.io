@@ -94,6 +94,12 @@ header {
         text-decoration: none;
         color: var(--text-color);
     }
+
+    > div {
+        margin: 0;
+        position: absolute;
+        right: 10px;
+    }
 }
 
 // Navbar
