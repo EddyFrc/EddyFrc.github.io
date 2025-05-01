@@ -29,13 +29,13 @@ function onSystemThemeChange(themeOrEvent) {
  * @param theme `'dark'` ou `'light'`
  */
 function applyTheme(theme) {
-    if (theme === 'dark')
+    if (theme === 'light')
         document.head.insertAdjacentHTML(
             'beforeend',
-            '<link id="dark-stylesheet" rel="stylesheet" href="/public/style/dark.css" />'
+            '<link id="light-stylesheet" rel="stylesheet" href="/public/style/light.css" />'
         );
     else
-        document.head.removeChild(document.getElementById('dark-stylesheet'));
+        document.head.removeChild(document.getElementById('light-stylesheet'));
 }
 
 darkThemeMq.addEventListener('change', onSystemThemeChange);
