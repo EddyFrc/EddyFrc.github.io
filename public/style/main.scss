@@ -1,11 +1,20 @@
 $transition: cubic-bezier(0, 1, 1, 1);
-$bleuLeger: rgb(94, 94, 255);
+$lightBlueAccent: rgb(94, 94, 255);
+
+:root {
+    --background-color: white;
+    --text-color: black;
+    --inventory-background-color: rgb(239, 239, 239);
+    --inventory-border-color: white;
+}
 
 // Paramètres par défaut
 body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 // Container principal
@@ -54,7 +63,7 @@ p {
 }
 
 a {
-    color: $bleuLeger;
+    color: $lightBlueAccent;
     text-decoration: none;
 
     &:hover {
@@ -64,7 +73,7 @@ a {
     }
 
     &:visited {
-        color: $bleuLeger;
+        color: $lightBlueAccent;
     }
 }
 
@@ -83,7 +92,7 @@ header {
     a:hover,
     a:visited {
         text-decoration: none;
-        color: black;
+        color: var(--text-color);
     }
 }
 
@@ -98,7 +107,7 @@ nav {
     a {
         padding: 4px;
         transition: all 0.2s ease;
-        border-bottom: solid white 3px;
+        border-bottom: solid var(--background-color) 3px;
     }
 }
 
@@ -107,7 +116,7 @@ nav {
 nav a:hover {
     background-position: center;
     background-size: cover;
-    border-color: $bleuLeger;
+    border-color: $lightBlueAccent;
 }
 
 // ----- Fin Header ------
@@ -117,19 +126,19 @@ nav a:hover {
 .inventaire {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border-right: solid 3px white;
-    border-bottom: solid 3px white;
+    border-right: solid 3px var(--inventory-border-color);
+    border-bottom: solid 3px var(--inventory-border-color);
 
     > * {
         box-sizing: border-box;
         height: 70px;
         width: 70px;
-        border-top: solid 3px white;
-        border-left: solid 3px white;
+        border-top: solid 3px var(--inventory-border-color);
+        border-left: solid 3px var(--inventory-border-color);
         padding: 7px;
         display: flex;
         justify-content: center;
-        background-color: rgb(239, 239, 239);
+        background-color: var(--inventory-background-color);
         position: relative;
         -webkit-transition: all, -webkit-transform 0.2s $transition;
         -moz-transition: all, -moz-transform 0.2s $transition;
@@ -144,7 +153,7 @@ nav a:hover {
         -webkit-transform: scale(1.3);
         -moz-transform: scale(1.3);
         transform: scale(1.3);
-        border: none white;
+        border: none var(--inventory-border-color);
         border-radius: 10%;
         z-index: 2;
     }
@@ -212,7 +221,7 @@ section {
     // Tous les articles après le premier sont faits pour être affichés quand on survole les items de l'inventaire
     article:not(:first-child) {
         display: none;
-        background-color: white;
+        background-color: var(--background-color);
         border-radius: 5px;
         // padding: 10px;
         // border: 4px solid gray;
