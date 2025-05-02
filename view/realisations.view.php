@@ -132,7 +132,8 @@
                 utilise l'ensemble des méthodes utilitaires pour fournir le résultat. J'ai aussi ajouté les touches
                 finales
                 telles qu'une légère optimisation des algorithmes, un formatage du code, l'ajout d'une documentation
-                intégrée.
+                intégrée.<br><br>
+                Code source disponible <a href="https://github.com/sogata-aw/SAE1.012">sur Github</a>
             </p>
         </div>
         <img class="illustration" src="/public/img/succes-depeche.jpg" alt="Illustration de journaux">
