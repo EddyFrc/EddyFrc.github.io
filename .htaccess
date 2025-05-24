@@ -19,3 +19,14 @@ Deny from all
 <Files "*.js">
     Allow from all
 </Files>
+
+# On autorise aussi les images
+<Files "*.png">
+    Allow from all
+</Files>
+<Files "*.svg">
+    Allow from all
+</Files>
+<FilesMatch "(favicon\.ico)?$">
+    Allow from all
+</FilesMatch>
