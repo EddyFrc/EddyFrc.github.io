@@ -17,61 +17,16 @@ class InventoryItem {
     ];
     const DB_PATH = __DIR__ . '/../data/data.db';
 
-    public string $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
-    public string $name {
-        get {
-            return $this->name;
-        }
-        set {
-            $this->name = $value;
-        }
-    }
-    public string $imageName {
-        get {
-            return $this->imageName;
-        }
-        set {
-            $this->imageName = $value;
-        }
-    }
-    private int $rarity {
-        get {
-            return $this->rarity;
-        }
-        set {
-            $this->rarity = $value;
-        }
-    }
-    public string $desc {
-        get {
-            return $this->desc;
-        }
-        set {
-            $this->desc = $value;
-        }
-    }
-    public string $skills {
-        get {
-            return $this->skills;
-        }
-        set {
-            $this->skills = $value;
-        }
-    }
-    public string $longDesc {
-        get {
-            return $this->longDesc;
-        }
-        set {
-            $this->longDesc = $value;
-        }
+    public $id;
+    public $name;
+    public $imageName;
+    public $rarity;
+    public $desc;
+    public $skills;
+    public $longDesc;
+
+    function getId(): string {
+        return $this->id;
     }
 
     function __construct(
