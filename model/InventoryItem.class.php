@@ -17,68 +17,61 @@ class InventoryItem {
     ];
     const DB_PATH = __DIR__ . '/../data/data.db';
 
-    private $id;
-    private $name;
-    private $imageName;
-    private $rarity;
-    private $desc;
-    private $skills;
-    private $longDesc;
-
-    function getId(): string {
-        return $this->id;
+    public string $id {
+        get {
+            return $this->id;
+        }
+        set {
+            $this->id = $value;
+        }
     }
-
-    function getName(): string {
-        return $this->name;
+    public string $name {
+        get {
+            return $this->name;
+        }
+        set {
+            $this->name = $value;
+        }
     }
-
-    function getImageName(): string {
-        return $this->imageName;
+    public string $imageName {
+        get {
+            return $this->imageName;
+        }
+        set {
+            $this->imageName = $value;
+        }
     }
-
-    function getRarity(): string {
-        return $this->rarity;
+    private int $rarity {
+        get {
+            return $this->rarity;
+        }
+        set {
+            $this->rarity = $value;
+        }
     }
-
-    function getDesc(): string {
-        return $this->desc;
+    public string $desc {
+        get {
+            return $this->desc;
+        }
+        set {
+            $this->desc = $value;
+        }
     }
-
-    function getSkills(): string {
-        return $this->skills;
+    public string $skills {
+        get {
+            return $this->skills;
+        }
+        set {
+            $this->skills = $value;
+        }
     }
-
-    function getLongDesc(): string {
-        return $this->longDesc;
-    }
-
-    function setId(string $id): void {
-        $this->id = $id;
-    }
-
-    function setName(string $name): void {
-        $this->name = $name;
-    }
-
-    function setImageName(string $imageName): void {
-        $this->imageName = $imageName;
-    }
-
-    function setRarity(int $rarity): void {
-        $this->rarity = $rarity;
-    }
-
-    function setDesc(string $desc): void {
-        $this->desc = $desc;
-    }
-
-    function setSkills(string $skills): void {
-        $this->skills = $skills;
-    }
-
-    function setLongDesc(string $longDesc): void {
-        $this->longDesc = $longDesc;
+    public string $longDesc {
+        get {
+            return $this->longDesc;
+        }
+        set {
+            $this->longDesc = $value;
+        }
     }
 
     function __construct(
@@ -90,13 +83,13 @@ class InventoryItem {
         string $skills,
         string $longDesc
     ) {
-        $this->setId($id);
-        $this->setName($name);
-        $this->setImageName($imageName);
-        $this->setRarity($rarity);
-        $this->setDesc($desc);
-        $this->setSkills($skills);
-        $this->setLongDesc($longDesc);
+        $this->id = $id;
+        $this->name = $name;
+        $this->imageName = $imageName;
+        $this->rarity = $rarity;
+        $this->desc = $desc;
+        $this->skills = $skills;
+        $this->longDesc = $longDesc;
     }
 
     /**
@@ -104,7 +97,7 @@ class InventoryItem {
      * @return string
      */
     function getRarityNominalClass(): string {
-        return self::RARITY_MAP[$this->getRarity()];
+        return self::RARITY_MAP[$this->rarity];
     }
 
     /**
@@ -112,7 +105,7 @@ class InventoryItem {
      * @return string
      */
     function getRarityLabel(): string {
-        return self::LEVEL_MAP[$this->getRarity()];
+        return self::LEVEL_MAP[$this->rarity];
     }
 
     /**

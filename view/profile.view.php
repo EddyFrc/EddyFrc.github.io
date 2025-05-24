@@ -7,8 +7,8 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/main.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/public/style/main.css">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
     <title>Eddy Francou - Portfolio</title>
 </head>
 
@@ -18,13 +18,13 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
     <article>
         <h2>Mon profil</h2>
         <div id="profile-container">
-            <img class="avatar" src="/img/avatar.png" alt="Avatar en pixel-art">
+            <img class="avatar" src="/public/img/avatar.png" alt="Avatar en pixel-art">
             <div class="inventaire" id="inventaire-principal">
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
-                    <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->getId() ?>">
-                        <img src="/img/<?= $inventoryItem->getImageName() ?>"
-                             alt="<?= $inventoryItem->getDesc() ?>">
+                    <div class="<?= $inventoryItem->getRarityNominalClass() ?>-item <?= $inventoryItem->id ?>">
+                        <img src="/public/img/<?= $inventoryItem->imageName ?>"
+                             alt="<?= $inventoryItem->desc ?>">
                     </div>
 
                 <?php endforeach; ?>
@@ -54,12 +54,12 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
 
                 <?php foreach ($inventoryItems as $inventoryItem): ?>
 
-                    <article class="<?= $inventoryItem->getRarityNominalClass() ?>-item" id="<?= $inventoryItem->getId() ?>">
-                        <h3><?= $inventoryItem->getName() ?></h3>
+                    <article class="<?= $inventoryItem->getRarityNominalClass() ?>-item" id="<?= $inventoryItem->id ?>">
+                        <h3><?= $inventoryItem->name ?></h3>
                         <p>
                             Niveau : <?= $inventoryItem->getRarityLabel() ?><br>
-                            Compétences : <?= $inventoryItem->getSkills() ?><br><br>
-                            <?= $inventoryItem->getLongDesc() ?>
+                            Compétences : <?= $inventoryItem->skills ?><br><br>
+                            <?= $inventoryItem->longDesc ?>
                         </p>
                     </article>
 
@@ -70,7 +70,7 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
     </article>
 </main>
 <?php require_once __DIR__ . '/block/loading.view.php' ?>
-<script src="/main.js"></script>
+<script src="/public/js/main.js"></script>
 </body>
 
 </html>

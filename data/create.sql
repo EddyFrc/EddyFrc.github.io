@@ -3,7 +3,7 @@ CREATE TABLE inventory (
     name      VARCHAR,
     imageName VARCHAR,
     rarity    INT,
-    desc      VARCHAR,
+    "desc"    VARCHAR,
     skills    TEXT,
     longDesc  TEXT
 );
