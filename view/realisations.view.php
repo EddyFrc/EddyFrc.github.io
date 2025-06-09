@@ -67,7 +67,7 @@
                 <a href="/#python" class="tag epic-item">Python</a>
             </div>
             <p>Période : Lycée, première année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
-                informatique</p>
+                informatique - Projet personnel</p>
             <h3>Programmer un jeu sur calculatrice Numworks</h3>
             <p>
                 L'objectif du projet était de réaliser un jeu d'arcade en Python en utilisant les librairies fournies
@@ -92,7 +92,7 @@
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Troisième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
-                informatique
+                informatique - Projet tutoré
             </p>
             <h3>Imaginer et réaliser une application web innovante</h3>
             <p>
@@ -114,7 +114,7 @@
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Deuxième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
-                informatique
+                informatique - Projet tutoré
             </p>
             <h3>Planifier, concevoir et développer une application de bureau complète à destination de
                 professionnels
@@ -138,7 +138,7 @@
                 <a href="/#git" class="tag uncommon-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Réaliser un programme d’apprentissage par renforcement</h3>
             <p>
@@ -169,7 +169,7 @@
             <div class="tags">
                 <a href="/#linux" class="tag epic-item">Linux</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Installer un poste pour le développement</h3>
             <p>
@@ -194,7 +194,7 @@
             <div class="tags">
                 <a href="/#psql" class="tag uncommon-item">PostgreSQL</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Créer et analyser une base de données</h3>
             <p>
@@ -217,7 +217,7 @@
                 <a href="/#html" class="tag rare-item">HTML</a>
                 <a href="/#css" class="tag rare-item">CSS</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Réaliser un site web simple</h3>
             <p>
