@@ -8,70 +8,25 @@ class InventoryItem {
         4 => 'Avancé',
         5 => 'Expert'
     ];
-    const array RARITY_MAP = [
+    const RARITY_MAP = [
         1 => 'common',
         2 => 'uncommon',
         3 => 'rare',
         4 => 'epic',
         5 => 'legendary'
     ];
-    const string DB_PATH = __DIR__ . '/../data/data.db';
+    const DB_PATH = __DIR__ . '/../data/data.db';
 
-    public string $id {
-        get {
-            return $this->id;
-        }
-        set {
-            $this->id = $value;
-        }
-    }
-    public string $name {
-        get {
-            return $this->name;
-        }
-        set {
-            $this->name = $value;
-        }
-    }
-    public string $imageName {
-        get {
-            return $this->imageName;
-        }
-        set {
-            $this->imageName = $value;
-        }
-    }
-    private int $rarity {
-        get {
-            return $this->rarity;
-        }
-        set {
-            $this->rarity = $value;
-        }
-    }
-    public string $desc {
-        get {
-            return $this->desc;
-        }
-        set {
-            $this->desc = $value;
-        }
-    }
-    public string $skills {
-        get {
-            return $this->skills;
-        }
-        set {
-            $this->skills = $value;
-        }
-    }
-    public string $longDesc {
-        get {
-            return $this->longDesc;
-        }
-        set {
-            $this->longDesc = $value;
-        }
+    public string $id;
+    public string $name;
+    public string $imageName;
+    private int $rarity;
+    public string $desc;
+    public string $skills;
+    public string $longDesc;
+
+    public function getId(): string {
+        return $this->id;
     }
 
     function __construct(
