@@ -20,6 +20,16 @@ Deny from all
     Allow from all
 </Files>
 
+# On autorise les fichiers zip
+<Files "*.zip">
+    Allow from all
+</Files>
+
+# On autorise les fichiers pdf
+<Files "*.pdf">
+    Allow from all
+</Files>
+
 # On autorise aussi les images
 <Files "*.png">
     Allow from all
