@@ -22,7 +22,11 @@
                 </a>
                 <a href="#s2-01256" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
-                    <p>Planifier, concevoir et développer une application complète</p>
+                    <p>Planifier, concevoir et développer une application de bureau</p>
+                </a>
+                <a href="#s3" class="gold">
+                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
+                    <p>Imaginer et réaliser une application web innovante</p>
                 </a>
                 <a href="#s1-012" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
@@ -57,13 +61,13 @@
             </section> -->
         </div>
     </article>
-    <article class="details-succes" id="sloubi">
+    <article class="details-succes projet-perso" id="sloubi">
         <div>
             <div class="tags">
                 <a href="/#python" class="tag epic-item">Python</a>
             </div>
             <p>Période : Lycée, première année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
-                informatique</p>
+                informatique - Projet personnel</p>
             <h3>Programmer un jeu sur calculatrice Numworks</h3>
             <p>
                 L'objectif du projet était de réaliser un jeu d'arcade en Python en utilisant les librairies fournies
@@ -79,18 +83,41 @@
         </div>
         <img class="illustration" src="/public/img/succes-numworks.png" alt="Calculatrice numworks">
     </article>
-    <article class="details-succes" id="s2-01256">
+    <article class="details-succes projet-tutore" id="s3">
+        <div>
+            <div class="tags">
+                <a href="/#php" class="tag rare-item">PHP</a>
+                <a href="/#javascript" class="tag uncommon-item">Javascript</a>
+                <a href="/#git" class="tag uncommon-item">Git</a>
+                <div class="tag uncommon-item">En équipe</div>
+            </div>
+            <p>Période : Troisième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
+                informatique - Projet tutoré
+            </p>
+            <h3>Imaginer et réaliser une application web innovante</h3>
+            <p>
+                Le projet consiste à développer une application web sur la base d'un sujet ouvert, afin de promouvoir le patrimoine français. Nous avons choisi de concentrer nos efforts sur les Maisons des Illustres, un label créé en 2011. 
+            </p>
+            <p>
+                Le résultat final est un site web, une combinaison entre un réseau social et une carte interactive. Celle-ci permet de chercher une Maison des Illustres spécifique sur la carte, filtrer leur affichage avec un panneau latéral, et en inspecter les détails. Un système de compte utilisateur complet permet de noter une Maison des Illustres, y laisser des commentaires, ajouter des personnes à sa liste d'amis...<br><br>
+                Téléchargement : <a href="/public/NotaDomus-source.zip">Code source</a>
+            </p>
+        </div>
+        <?php # TODO changer l'image ?>
+        <img class="illustration" src="/public/img/succes-notadomus.png" alt="Illustration de brocante">
+    </article>
+    <article class="details-succes projet-tutore" id="s2-01256">
         <div>
             <div class="tags">
                 <a href="/#java" class="tag rare-item">Java</a>
                 <a href="/#java" class="tag rare-item">JavaFX</a>
-                <a href="/#git" class="tag rare-item">Git</a>
+                <a href="/#git" class="tag uncommon-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Deuxième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
-                informatique
+                informatique - Projet tutoré
             </p>
-            <h3>Planifier, concevoir et développer une application de bureautique complète à destination de
+            <h3>Planifier, concevoir et développer une application de bureau complète à destination de
                 professionnels
             </h3>
             <p>
@@ -100,19 +127,20 @@
                 son
                 événement dans une interface graphique. Le logiciel est adapté pour des professionnels qui doivent faire
                 le
-                lien entre les participants au marché et les données stockées dans l’application.
+                lien entre les participants au marché et les données stockées dans l’application.<br><br>
+                Téléchargement : <a href="/public/LeBonStand-source.zip">Code source</a>
             </p>
         </div>
         <img class="illustration" src="/public/img/succes-brocante.jpeg" alt="Illustration de brocante">
     </article>
-    <article class="details-succes" id="s1-012">
+    <article class="details-succes projet-tutore" id="s1-012">
         <div>
             <div class="tags">
                 <a href="/#java" class="tag rare-item">Java</a>
-                <a href="/#git" class="tag rare-item">Git</a>
+                <a href="/#git" class="tag uncommon-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Réaliser un programme d’apprentissage par renforcement</h3>
             <p>
@@ -138,12 +166,12 @@
         </div>
         <img class="illustration" src="/public/img/succes-depeche.jpg" alt="Illustration de journaux">
     </article>
-    <article class="details-succes" id="s1-03">
+    <article class="details-succes projet-tutore" id="s1-03">
         <div>
             <div class="tags">
                 <a href="/#linux" class="tag epic-item">Linux</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Installer un poste pour le développement</h3>
             <p>
@@ -163,12 +191,12 @@
         </div>
         <img class="illustration" src="/public/img/succes-installation.png" alt="Écran d'installation de Debian">
     </article>
-    <article class="details-succes" id="s1-04">
+    <article class="details-succes projet-tutore" id="s1-04">
         <div>
             <div class="tags">
                 <a href="/#psql" class="tag uncommon-item">PostgreSQL</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Créer et analyser une base de données</h3>
             <p>
@@ -185,13 +213,13 @@
         </div>
         <!-- <img class="illustration" src="/img/succes-installation.png" alt="Calculatrice numworks"> -->
     </article>
-    <article class="details-succes" id="s1-056">
+    <article class="details-succes projet-tutore" id="s1-056">
         <div>
             <div class="tags">
                 <a href="/#html" class="tag rare-item">HTML</a>
                 <a href="/#css" class="tag rare-item">CSS</a>
             </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique
+            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
             </p>
             <h3>Réaliser un site web simple</h3>
             <p>

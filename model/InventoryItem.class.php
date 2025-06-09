@@ -1,7 +1,7 @@
 <?php
 
 class InventoryItem {
-    const LEVEL_MAP = [
+    const array LEVEL_MAP = [
         1 => 'Débutant',
         2 => 'Habitué',
         3 => 'Confirmé',
