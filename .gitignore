@@ -216,6 +216,9 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm,jetbrains,visualstudiocode,sass
 
+# Style généré par scss
 *.css
 
-/public/cv.pdf
+# Aucun intérêt de track les pdf et zip
+*.pdf
+*.zip
