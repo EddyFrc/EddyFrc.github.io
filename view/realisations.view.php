@@ -99,7 +99,8 @@
                 Le projet consiste à développer une application web sur la base d'un sujet ouvert, afin de promouvoir le patrimoine français. Nous avons choisi de concentrer nos efforts sur les Maisons des Illustres, un label créé en 2011. 
             </p>
             <p>
-                Le résultat final est un site web, une combinaison entre un réseau social et une carte interactive. Celle-ci permet de chercher une Maison des Illustres spécifique sur la carte, filtrer leur affichage avec un panneau latéral, et en inspecter les détails. Un système de compte utilisateur complet permet de noter une Maison des Illustres, y laisser des commentaires, ajouter des personnes à sa liste d'amis...
+                Le résultat final est un site web, une combinaison entre un réseau social et une carte interactive. Celle-ci permet de chercher une Maison des Illustres spécifique sur la carte, filtrer leur affichage avec un panneau latéral, et en inspecter les détails. Un système de compte utilisateur complet permet de noter une Maison des Illustres, y laisser des commentaires, ajouter des personnes à sa liste d'amis...<br><br>
+                Téléchargement : <a href="/public/NotaDomus-source.zip">Code source</a>
             </p>
         </div>
         <?php # TODO changer l'image ?>
@@ -126,7 +127,8 @@
                 son
                 événement dans une interface graphique. Le logiciel est adapté pour des professionnels qui doivent faire
                 le
-                lien entre les participants au marché et les données stockées dans l’application.
+                lien entre les participants au marché et les données stockées dans l’application.<br><br>
+                Téléchargement : <a href="/public/LeBonStand-source.zip">Code source</a>
             </p>
         </div>
         <img class="illustration" src="/public/img/succes-brocante.jpeg" alt="Illustration de brocante">
