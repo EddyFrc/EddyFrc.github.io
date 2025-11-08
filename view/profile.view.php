@@ -37,15 +37,18 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
                 <article>
                     <h3>A propos de moi</h3>
                     <p>
-                        Je m’appelle Eddy Francou. Étudiant en deuxième année de BUT informatique et diplômé du
-                        baccalauréat, mon objectif est de
-                        mettre la technique au service de logiciels de qualité, avec élégance et rigueur.
+                        Je m’appelle Eddy Francou. Je suis étudiant en troisième année de BUT informatique, actuellement
+                        en échange à l'Université du Québec à Chicoutimi ! Mon objectif : devenir développeur pour le
+                        jeu-vidéo, et mettre la technique au service du divertissement, avec efficacité et rigueur.
                     </p>
-                    <?php // Je m’appelle Eddy Francou. Étudiant en informatique et diplômé du baccalauréat, j’ai pour vocation de raconter des histoires-interactives-dont-vous-êtes-le-héros, aussi appelées jeux-vidéos. Mon objectif ? Mettre la technique au service du divertissement, avec élégance et rigueur. ?>
                     <p>
-                        A mes heures perdues, je suis (étonnamment) un geek passionné de jeux-vidéos, de technologies et
-                        de
-                        chats.
+                        A mes heures perdues, je suis (étonnamment) un geek passionné de jeux-vidéos et de technologies.
+                        Ma grande spécialité a toujours été de détourner tout ce qui me passe par la main pour en
+                        faire un jeu. Tout y est passé, même un logiciel conçu pour réaliser des designs Lego...
+                        &#128517;
+                    </p>
+                    <p>
+                        Je suis aussi un amateur de badminton et grand fan de chats &#128008;
                     </p>
                     <p>
                         Cliquez sur une technologie dans cet inventaire pour en savoir plus !

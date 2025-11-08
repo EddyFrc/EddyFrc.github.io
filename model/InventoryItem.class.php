@@ -1,11 +1,11 @@
 <?php
 
 class InventoryItem {
-    const array LEVEL_MAP = [
-        1 => 'Débutant',
-        2 => 'Habitué',
-        3 => 'Confirmé',
-        4 => 'Avancé',
+    const LEVEL_MAP = [
+        1 => 'Novice',
+        2 => 'Intermédiaire',
+        3 => 'Compétent',
+        4 => 'Performant',
         5 => 'Expert'
     ];
     const RARITY_MAP = [
@@ -68,7 +68,7 @@ class InventoryItem {
      * @return array<InventoryItem>
      */
     static function readAll(): array {
-        $query = new PDO('sqlite:' . self::DB_PATH)->prepare('SELECT * FROM inventory ORDER BY rarity DESC');
+        $query = (new PDO('sqlite:' . self::DB_PATH))->prepare('SELECT * FROM inventory ORDER BY rarity DESC');
         $query->execute();
         $table = $query->fetchAll();
 

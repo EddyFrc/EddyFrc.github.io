@@ -20,6 +20,10 @@
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>
                 </a>
+                <a href="#untitled-card-game" class="gold">
+                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
+                    <p>Participer à une Game Jam</p>
+                </a>
                 <a href="#s2-01256" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Planifier, concevoir et développer une application de bureau</p>
@@ -27,6 +31,10 @@
                 <a href="#s3" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Imaginer et réaliser une application web innovante</p>
+                </a>
+                <a href="#space-shooter" class="silver">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
+                    <p>Réaliser un jeu de tir en 2D</p>
                 </a>
                 <a href="#s1-012" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
@@ -70,7 +78,9 @@
                 informatique - Projet personnel</p>
             <h3>Programmer un jeu sur calculatrice Numworks</h3>
             <p>
-                L'objectif du projet était de réaliser un jeu d'arcade en Python en utilisant les librairies fournies
+                J'ai commencé ce projet dès que j'ai su qu'il était possible de changer la couleur des pixels de
+                l'écran et enregistrer des appuis de touches avec un script Python !<br><br>
+                J'ai donc voulu réaliser un jeu d'arcade en Python en utilisant les librairies fournies
                 par la calculatrice Numworks. J'ai d'abord utilisé l'éditeur en ligne sur le site officiel, puis j'ai
                 utilisé les modules <a href="https://pypi.org/project/kandinsky/">kandinsky-numworks</a> et
                 <a href="https://pypi.org/project/ion-numworks/">ion-numworks</a> qui émulent le comportement de la
@@ -82,6 +92,48 @@
             </p>
         </div>
         <img class="illustration" src="/public/img/succes-numworks.png" alt="Calculatrice numworks">
+    </article>
+    <article class="details-succes projet-tutore" id="untitled-card-game">
+        <div>
+            <div class="tags">
+                <a href="/#unreal-engine" class="tag uncommon-item">Unreal Engine 5</a>
+                <a href="/#perforce" class="tag uncommon-item">Perforce</a>
+            </div>
+            <p>Période : Troisième année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
+                informatique en année d'échange à l'<abbr title="Université du Québec à Chicoutimi">UQAC</abbr>
+                - Game Jam</p>
+            <h3>Participer à une Game Jam</h3>
+            <p>
+                J'ai participé à la Wonder Jam de l'automne 2025 !<br><br>
+                Le concept : réaliser un jeu en 48 h. Il est nécessaire de respecter un thème principal (ici
+                <i>la contrefaçon</i>), et il y a 3 "styles" aléatoires assignés à chaque équipe (dont deux
+                obligatoires). Notre équipe devait donc respecter les contraintes suivantes : 1- le joueur ne doit pas
+                avoir d'allié; 2- il doit affronter un ennemi unique. Le troisième style ("réaliser un jeu de cartes")
+                était facultatif, mais nous avons tout de même réussi à le respecter. Une expérience très enrichissante.
+                <br><br>
+                Liens : <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025/rate/3954873">Jeu</a>,
+                <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025">Page de la Wonder Jam</a>
+            </p>
+        </div>
+        <img class="illustration" src="/public/img/succes-untitled-card-game.png" alt="Calculatrice numworks">
+    </article>
+    <article class="details-succes projet-tutore" id="space-shooter">
+        <div>
+            <div class="tags">
+                <a href="/#unreal-engine" class="tag uncommon-item">Unreal Engine 5</a>
+                <a href="/#perforce" class="tag uncommon-item">Perforce</a>
+            </div>
+            <p>Période : Troisième année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
+                informatique en année d'échange à l'<abbr title="Université du Québec à Chicoutimi">UQAC</abbr>
+                - Projet tutoré</p>
+            <h3>Réaliser un jeu de tir en 2D</h3>
+            <p>
+                Ce jeu a été réalisé dans le cadre de mon apprentissage du moteur Unreal Engine 5. Je suis très
+                satisfait du résultat, même si le jeu mériterait peut-être des assets moins "lourds".<br><br>
+                Liens : <a href="https://github.com/EddyFrc/prog-moteur-tp1-space-shooter">Github</a>
+            </p>
+        </div>
+        <img class="illustration" src="/public/img/succes-space-shooter.png" alt="Illustration">
     </article>
     <article class="details-succes projet-tutore" id="s3">
         <div>
@@ -96,10 +148,14 @@
             </p>
             <h3>Imaginer et réaliser une application web innovante</h3>
             <p>
-                Le projet consiste à développer une application web sur la base d'un sujet ouvert, afin de promouvoir le patrimoine français. Nous avons choisi de concentrer nos efforts sur les Maisons des Illustres, un label créé en 2011. 
+                Le projet consiste à développer une application web sur la base d'un sujet ouvert, afin de promouvoir le
+                patrimoine français. Nous avons choisi de concentrer nos efforts sur les Maisons des Illustres, un label créé en 2011.
             </p>
             <p>
-                Le résultat final est un site web, une combinaison entre un réseau social et une carte interactive. Celle-ci permet de chercher une Maison des Illustres spécifique sur la carte, filtrer leur affichage avec un panneau latéral, et en inspecter les détails. Un système de compte utilisateur complet permet de noter une Maison des Illustres, y laisser des commentaires, ajouter des personnes à sa liste d'amis...<br><br>
+                Le résultat final est un site web, une combinaison entre un réseau social et une carte interactive.
+                Celle-ci permet de chercher une Maison des Illustres spécifique sur la carte, filtrer leur affichage
+                avec un panneau latéral, et en inspecter les détails. Un système de compte utilisateur complet permet de
+                noter une Maison des Illustres, y laisser des commentaires, ajouter des personnes à sa liste d'amis...<br><br>
                 Téléchargement : <a href="/public/NotaDomus-source.zip">Code source</a>
             </p>
         </div>
