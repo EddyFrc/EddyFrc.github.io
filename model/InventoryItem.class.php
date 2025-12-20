@@ -2,10 +2,10 @@
 
 class InventoryItem {
     const LEVEL_MAP = [
-        1 => 'Débutant',
-        2 => 'Habitué',
-        3 => 'Confirmé',
-        4 => 'Avancé',
+        1 => 'Novice',
+        2 => 'Intermédiaire',
+        3 => 'Compétent',
+        4 => 'Performant',
         5 => 'Expert'
     ];
     const RARITY_MAP = [
