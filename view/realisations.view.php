@@ -104,12 +104,12 @@
                 - Game Jam</p>
             <h3>Participer à une Game Jam</h3>
             <p>
-                J'ai participé à la Wonder Jam de l'automne 2025 !<br><br>
+                J'ai participé à la Wonder Jam de l'automne 2025, à l'UQAC !<br><br>
                 Le concept : réaliser un jeu en 48 h. Il est nécessaire de respecter un thème principal (ici
                 <i>la contrefaçon</i>), et il y a 3 "styles" aléatoires assignés à chaque équipe (dont deux
                 obligatoires). Notre équipe devait donc respecter les contraintes suivantes : 1- le joueur ne doit pas
                 avoir d'allié; 2- il doit affronter un ennemi unique. Le troisième style ("réaliser un jeu de cartes")
-                était facultatif, mais nous avons tout de même réussi à le respecter. Une expérience très enrichissante.
+                était facultatif, mais nous avons tout de même réussi à le respecter. Une expérience très enrichissante !
                 <br><br>
                 Liens : <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025/rate/3954873">Jeu</a>,
                 <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025">Page de la Wonder Jam</a>
@@ -265,21 +265,6 @@
                 de données. Puis, j'ai réalisé un schéma représentant la structures des données à analyser. Enfin et à
                 l'aide
                 d'un éditeur de texte, j'ai utilisé le langage SQL pour rendre la base effective.
-            </p>
-        </div>
-        <!-- <img class="illustration" src="/img/succes-installation.png" alt="Calculatrice numworks"> -->
-    </article>
-    <article class="details-succes projet-tutore" id="s1-056">
-        <div>
-            <div class="tags">
-                <a href="/#html" class="tag rare-item">HTML</a>
-                <a href="/#css" class="tag rare-item">CSS</a>
-            </div>
-            <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
-            </p>
-            <h3>Réaliser un site web simple</h3>
-            <p>
-                L'objectif était de créer un site web sobre écologiquement à destination d'une entreprise.
             </p>
         </div>
         <!-- <img class="illustration" src="/img/succes-installation.png" alt="Calculatrice numworks"> -->
