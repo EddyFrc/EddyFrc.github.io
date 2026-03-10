@@ -1,3 +1,3 @@
 # Page de portfolio
 
-Mon portolio est accessible [ici](https://eddyfrc.github.io/docs).
+La nouvelle version de mon portolio est accessible [ici](http://eddyf.ddns.net).
