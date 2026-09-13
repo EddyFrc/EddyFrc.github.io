@@ -17,15 +17,15 @@ class InventoryItem {
     ];
     const DB_PATH = __DIR__ . '/../data/data.db';
 
-    public string $id;
-    public string $name;
-    public string $imageName;
-    private int $rarity;
-    public string $desc;
-    public string $skills;
-    public string $longDesc;
+    public $id;
+    public $name;
+    public $imageName;
+    public $rarity;
+    public $desc;
+    public $skills;
+    public $longDesc;
 
-    public function getId(): string {
+    function getId(): string {
         return $this->id;
     }
 

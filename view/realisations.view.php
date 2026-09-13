@@ -20,7 +20,7 @@
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>
                 </a>
-                <a href="#untitled-card-game" class="gold">
+                <a href="#baby-boat" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Participer à une Game Jam</p>
                 </a>
@@ -31,6 +31,10 @@
                 <a href="#s3" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Imaginer et réaliser une application web innovante</p>
+                </a>
+                <a href="#ehc" class="silver">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
+                    <p>Créer un mod Minecraft avec Fabric</p>
                 </a>
                 <a href="#space-shooter" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
@@ -93,35 +97,55 @@
         </div>
         <img class="illustration" src="/public/img/succes-numworks.png" alt="Calculatrice numworks">
     </article>
-    <article class="details-succes projet-tutore" id="untitled-card-game">
+    <article class="details-succes projet-perso" id="ehc">
         <div>
             <div class="tags">
-                <a href="/#unreal-engine" class="tag uncommon-item">Unreal Engine 5</a>
-                <a href="/#perforce" class="tag uncommon-item">Perforce</a>
+                <a href="/#java" class="tag epic-item">Java</a>
+                <a href="/#git" class="tag rare-item">Git</a>
+            </div>
+            <p>Période : Troisième année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
+                informatique en année d'échange à l'<abbr title="Université du Québec à Chicoutimi">UQAC</abbr>
+                - Projet personnel</p>
+            <h3>Créer un mod Minecraft avec Fabric</h3>
+            <p>
+                Un mod simple pour Minecraft, créé pour le plaisir. Beaucoup de mods similaires existaient mais aucun
+                n'avait les fonctionnalités qui m'intéressaient.<br><br>
+                Liens : <a href="https://github.com/EddyFrc/mc-heart-container">Github</a>,
+                <a href="https://modrinth.com/project/jvHnFgX8">Modrinth</a>,
+                <a href="https://www.curseforge.com/minecraft/mc-mods/ehc">Curseforge</a>
+            </p>
+        </div>
+        <img class="illustration" src="/public/img/succes-ehc.png" alt="Illustration">
+    </article>
+    <article class="details-succes projet-perso" id="baby-boat">
+        <div>
+            <div class="tags">
+                <a href="/#godot" class="tag rare-item">Godot Engine</a>
+                <a href="/#git" class="tag rare-item">Git</a>
             </div>
             <p>Période : Troisième année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
                 informatique en année d'échange à l'<abbr title="Université du Québec à Chicoutimi">UQAC</abbr>
                 - Game Jam</p>
             <h3>Participer à une Game Jam</h3>
             <p>
-                J'ai participé à la Wonder Jam de l'automne 2025, à l'UQAC !<br><br>
-                Le concept : réaliser un jeu en 48 h. Il est nécessaire de respecter un thème principal (ici
-                <i>la contrefaçon</i>), et il y a 3 "styles" aléatoires assignés à chaque équipe (dont deux
-                obligatoires). Notre équipe devait donc respecter les contraintes suivantes : 1- le joueur ne doit pas
-                avoir d'allié; 2- il doit affronter un ennemi unique. Le troisième style ("réaliser un jeu de cartes")
-                était facultatif, mais nous avons tout de même réussi à le respecter. Une expérience très enrichissante !
-                <br><br>
-                Liens : <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025/rate/3954873">Jeu</a>,
-                <a href="https://itch.io/jam/-wonderjam-uqac-automne-2025">Page de la Wonder Jam</a>
+                J'ai participé à la Wonder Jam de l'hiver 2026, à l'UQAC !<br><br>
+                Le concept : réaliser un jeu en 48 h. Il est nécessaire de respecter un thème principal (ici le thème
+                <i>tropical</i>), et il y a 3 "styles" aléatoires assignés à chaque équipe (dont deux
+                obligatoires). Notre équipe devait donc respecter les contraintes suivantes : 1- le jeu doit être un
+                <i>rogue-lite</i>; 2- il doit y avoir un score (jeu d'arcade). Le troisième style (conduire un véhicule)
+                était facultatif, mais nous avons tout de même réussi à le respecter. Une expérience encore plus
+                mémorable que ma première Game Jam !<br><br>
+                Liens : <a href="https://itch.io/jam/wonderjam-uqac-hiver-2026/rate/4331153">Jeu</a>,
+                <a href="https://itch.io/jam/wonderjam-uqac-hiver-2026">Page de la Wonder Jam</a>
             </p>
         </div>
-        <img class="illustration" src="/public/img/succes-untitled-card-game.png" alt="Calculatrice numworks">
+        <img class="illustration" src="/public/img/succes-baby-boat.png" alt="Capture du jeu Baby Boat">
     </article>
     <article class="details-succes projet-tutore" id="space-shooter">
         <div>
             <div class="tags">
-                <a href="/#unreal-engine" class="tag uncommon-item">Unreal Engine 5</a>
-                <a href="/#perforce" class="tag uncommon-item">Perforce</a>
+                <a href="/#unreal-engine" class="tag rare-item">Unreal Engine 5</a>
+                <a href="/#perforce" class="tag rare-item">Perforce</a>
             </div>
             <p>Période : Troisième année de <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
                 informatique en année d'échange à l'<abbr title="Université du Québec à Chicoutimi">UQAC</abbr>
@@ -140,7 +164,7 @@
             <div class="tags">
                 <a href="/#php" class="tag rare-item">PHP</a>
                 <a href="/#javascript" class="tag uncommon-item">Javascript</a>
-                <a href="/#git" class="tag uncommon-item">Git</a>
+                <a href="/#git" class="tag rare-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Troisième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
@@ -165,9 +189,9 @@
     <article class="details-succes projet-tutore" id="s2-01256">
         <div>
             <div class="tags">
-                <a href="/#java" class="tag rare-item">Java</a>
-                <a href="/#java" class="tag rare-item">JavaFX</a>
-                <a href="/#git" class="tag uncommon-item">Git</a>
+                <a href="/#java" class="tag epic-item">Java</a>
+                <a href="/#java" class="tag epic-item">JavaFX</a>
+                <a href="/#git" class="tag rare-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Deuxième semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr>
@@ -192,8 +216,8 @@
     <article class="details-succes projet-tutore" id="s1-012">
         <div>
             <div class="tags">
-                <a href="/#java" class="tag rare-item">Java</a>
-                <a href="/#git" class="tag uncommon-item">Git</a>
+                <a href="/#java" class="tag epic-item">Java</a>
+                <a href="/#git" class="tag rare-item">Git</a>
                 <div class="tag uncommon-item">En équipe</div>
             </div>
             <p>Période : Premier semestre du <abbr title="Bachelor Universitaire de Technologie">BUT</abbr> informatique - Projet tutoré
