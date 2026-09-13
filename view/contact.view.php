@@ -33,8 +33,8 @@
     <article class="contact">
         <h3>Informations de contact</h3>
         <p>
-            Adresse mail universitaire :
-            <a href="mailto:eddy.francou@etu.univ-grenoble-alpes.fr">eddy.francou@etu.univ-grenoble-alpes.fr</a>
+            Adresse courriel :
+            <a href="mailto:eddyfrancou.pro@gmail.com">eddyfrancou.pro@gmail.com</a>
         </p>
         <p>
             Numéro de téléphone : <a href="tel:0635026244">06 35 02 62 44</a>
