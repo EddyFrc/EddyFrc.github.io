@@ -37,18 +37,19 @@ $missingEntriesCount = INVENTORY_WIDTH - (sizeof($inventoryItems) % INVENTORY_WI
                 <article>
                     <h3>A propos de moi</h3>
                     <p>
-                        Je m’appelle Eddy Francou. Je suis étudiant en troisième année de BUT informatique, actuellement
-                        en échange à l'Université du Québec à Chicoutimi ! Mon objectif : devenir développeur pour le
-                        jeu-vidéo, et mettre la technique au service du divertissement, avec efficacité et rigueur.
+                        Salut ! Je suis étudiant à Isart Digital et futur ingénieur logiciel spécialisé dans le jeu-vidéo.
+                        J'aime beaucoup concevoir des systèmes et des outils (tooling) les plus soignés possibles, je trouve ça super satisfaisant 	&#10024;
+                        (je crois que quelque part ça "met de l'ordre" dans mon cerveau, ça satisfait mon besoin de perfection).
                     </p>
                     <p>
-                        A mes heures perdues, je suis (étonnamment) un geek passionné de jeux-vidéos et de technologies.
-                        Ma grande spécialité a toujours été de détourner tout ce qui me passe par la main pour en
-                        faire un jeu. Tout y est passé, même un logiciel conçu pour réaliser des designs Lego...
-                        &#128517;
+                        Je ne pense étonner personne en disant que je suis un geek passionné de jeux-vidéos et de technologies &#128517;.
+                        Quand j'étais (plus) jeune, je détournais un peu tout ce qui me passait par la main pour en faire un jeu.
+                        Tout y est passé, même le logiciel "LDD" qui normalement permet juste de construire des Lego sur ordinateur...
+                        Je pense que si, pendant le collège et le lycée, je n'avais pas découvert la programmation et plus généralement
+                        l'informatique, j'aurais probablement voulu être game designer !
                     </p>
                     <p>
-                        Je suis aussi un amateur de badminton et grand fan de chats &#128008;
+                        Je suis aussi un amateur de badminton et j'aime faire quelques ballades en vélo de temps en temps &#128513; donnez-moi un chat et je disparais avec.
                     </p>
                     <p>
                         Cliquez sur une technologie dans cet inventaire pour en savoir plus !
