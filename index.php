@@ -11,5 +11,8 @@
 
 // var_dump($inventaire);
 $controller = $_GET['page'] ?? 'profil';
+if ($controller == 'succes') {
+    $controller = 'realisations';
+}
 
 require_once "controler/$controller.ctrl.php";
