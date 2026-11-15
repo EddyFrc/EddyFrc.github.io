@@ -28,13 +28,13 @@
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Imaginer et réaliser une application web innovante</p>
                 </a>
+                <a href="#left-alone-together" class="gold">
+                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
+                    <p>Participer à une Game Jam inter-disciplinaire</p>
+                </a>
                 <a href="#ehc" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Créer un mod Minecraft avec Fabric</p>
-                </a>
-                <a href="#left-alone-together" class="silver">
-                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
-                    <p>Participer à une Game Jam inter-disciplinaire</p>
                 </a>
                 <a href="#baby-boat" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
