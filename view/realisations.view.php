@@ -20,10 +20,6 @@
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Programmer un jeu sur calculatrice Numworks</p>
                 </a>
-                <a href="#baby-boat" class="gold">
-                    <img src="/public/img/trophy-gold.png" alt="Trophée en or">
-                    <p>Participer à une Game Jam</p>
-                </a>
                 <a href="#s2-01256" class="gold">
                     <img src="/public/img/trophy-gold.png" alt="Trophée en or">
                     <p>Planifier, concevoir et développer une application de bureau</p>
@@ -35,6 +31,14 @@
                 <a href="#ehc" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
                     <p>Créer un mod Minecraft avec Fabric</p>
+                </a>
+                <a href="#left-alone-together" class="silver">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
+                    <p>Participer à une Game Jam inter-disciplinaire</p>
+                </a>
+                <a href="#baby-boat" class="silver">
+                    <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
+                    <p>Participer à une Game Jam</p>
                 </a>
                 <a href="#space-shooter" class="silver">
                     <img src="/public/img/trophy-silver.png" alt="Trophée en argent">
@@ -140,6 +144,31 @@
             </p>
         </div>
         <img class="illustration" src="/public/img/succes-baby-boat.png" alt="Capture du jeu Baby Boat">
+    </article>
+    <article class="details-succes projet-tutore" id="left-alone-together">
+        <div>
+            <div class="tags">
+                <a href="/#unity" class="tag uncommon-item">Unity Engine</a>
+                <a href="/#csharp" class="tag uncommon-item">C#</a> <?php #TODO ?>
+                <a href="/#git" class="tag rare-item">Git</a>
+            </div>
+            <p>Période : Troisième année de cycle ingénieur Game Programming à Isart Digital Paris - Game Jam</p>
+            <h3>Participer à une Game Jam inter-disciplinaire</h3>
+            <p>
+                J'ai participé à la Game Week 2026 à Isart Digital !<br><br>
+                L'édition 2026 pour les étudiants de troisième année était centrée sur le thème "L'empreinte".
+                J'ai proposé un concept : le joueur parcourt le même niveau en boucle, mais chaque passage modifie
+                l'environnement de telle sorte qu'on ne puisse jamais prendre le même passage.
+                Tout cela a été sublimé par le travail impressionnant des game designers, ainsi que la direction graphique et sonore. <br><br>
+                L'école met en avant la collaboration entre tous les domaines de production de jeux-vidéo :
+                game design, ambiance sonore, direction artistique... C'est ma première game jam dans un contexte
+                comme celui-ci. J'ai découvert de manière concrète la grande importance de la communication entre les domaines.
+                J'ai dû m'adapter à leur spécificités, faire comprendre mes enjeux techniques, et surtout comprendre ceux
+                des autres membres de l'équipe. Je trouve ces problématiques très stimulantes !<br><br>
+                Liens : <a href="https://youtu.be/X0fycEUE-P8">Vidéo de démo</a>
+            </p>
+        </div>
+        <img class="illustration" src="/public/img/<?php #TODO ?>.png" alt="<?php #TODO ?>">
     </article>
     <article class="details-succes projet-tutore" id="space-shooter">
         <div>
