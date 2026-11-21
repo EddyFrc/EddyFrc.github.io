@@ -148,8 +148,8 @@
     <article class="details-succes projet-tutore" id="left-alone-together">
         <div>
             <div class="tags">
-                <a href="/#unity" class="tag uncommon-item">Unity Engine</a>
-                <a href="/#csharp" class="tag uncommon-item">C#</a><?php#TODO vérifier l'id csharp (est-ce que c'est le bon ?)?>
+                <a href="/#unity" class="tag rare-item">Unity Engine</a>
+                <a href="/#csharp" class="tag rare-item">C#</a><?php#TODO vérifier l'id csharp (est-ce que c'est le bon ?)?>
                 <a href="/#git" class="tag rare-item">Git</a>
             </div>
             <p>Période : Troisième année de cycle ingénieur Game Programming à Isart Digital Paris - Game Jam</p>
